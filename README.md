@@ -10,3 +10,5 @@ I learned that "cat" reads and displays the text inside a file onto your screen.
 I learned that A standalone dash doesn't wait for a directory command; it waits for you to type raw text or data using your keyboard.
 I learned that "cd" changes the directory/folder you are in, so if you were to type "cd inhere", it would change your directory/folder to "inhere".
 I learned that "ls" is a comamnd that lists all the folders and stuff inside your current directory, additionally "ls -a" will force linux to list everything including invisible/hidden files
+2> redirects errors somewhere else, and putting a directory after will make linux throw it there. /dev/null is a permanently empty file so whatever you throw there gets deleted forever, so doing 2>/dev/null after a command will throw all standard erros away from your screen to get deleted at /dev/null.
+"string" command tells linux to filter out unreadable computer code and give only human readable text
